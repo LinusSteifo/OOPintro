@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class BankAccount
 {
     public string Owner { get; set; }
@@ -30,3 +31,23 @@ public class BankAccount
     // Publik metod ger kontrollerad åtkomst till det privata fältet
     public double GetBalance() => balance;
 }
+=======
+// BankAccount.cs är oförändrad (som i main)
+
+public class SavingsAccount : BankAccount
+{
+    public double InterestRate { get; set; }
+
+    public SavingsAccount(string owner, double balance, double interestRate)
+        : base(owner, balance) // anropar basklassens konstruktor
+    {
+        InterestRate = interestRate;
+    }
+
+    public void ApplyInterest()
+    {
+        double interest = GetBalance() * InterestRate;
+        Deposit(interest);
+    }
+}
+>>>>>>> 1d642d0 (Implementerar inheritance)
