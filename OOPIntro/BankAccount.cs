@@ -1,11 +1,19 @@
 public class BankAccount
 {
     public string Owner { get; set; }
+    public double Balance { get; set; }
     private double balance; // privat fält — kan inte nås direkt utifrån klassen
 
     public BankAccount(string owner, double balance)
     {
         Owner = owner;
+        Balance = balance;
+    }
+
+    public void ShowInfo()
+    {
+        Console.WriteLine($"Konto: {Owner}, Saldo: {Balance} kr");
+    }
         this.balance = balance;
     }
 
