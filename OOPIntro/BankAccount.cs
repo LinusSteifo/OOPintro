@@ -1,18 +1,16 @@
-// BankAccount.cs är oförändrad (som i main)
-
-public class SavingsAccount : BankAccount
+ublic class BankAccount
 {
-    public double InterestRate { get; set; }
+    public string Owner { get; set; }
+    public double Balance { get; set; }
 
-    public SavingsAccount(string owner, double balance, double interestRate)
-        : base(owner, balance) // anropar basklassens konstruktor
+    public BankAccount(string owner, double balance)
     {
-        InterestRate = interestRate;
+        Owner = owner;
+        Balance = balance;
     }
 
-    public void ApplyInterest()
+    public void ShowInfo()
     {
-        double interest = GetBalance() * InterestRate;
-        Deposit(interest);
+        Console.WriteLine($"Konto: {Owner}, Saldo: {Balance} kr");
     }
 }
