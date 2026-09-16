@@ -1,7 +1,8 @@
 public class BankAccount
 {
     public string Owner { get; }
-    public double Balance { get; private set; }
+    protected double BalanceValue { get; set; }
+    public double Balance { get; protected set; }
 
     public BankAccount(string owner, double balance)
     {

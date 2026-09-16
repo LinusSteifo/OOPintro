@@ -3,3 +3,13 @@ C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.Assem
 C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.AssemblyInfo.cs
 C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.csproj.CoreCompileInputs.cache
 C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.sourcelink.json
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\bin\Debug\net10.0\OOPIntro.exe
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\bin\Debug\net10.0\OOPIntro.deps.json
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\bin\Debug\net10.0\OOPIntro.runtimeconfig.json
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\bin\Debug\net10.0\OOPIntro.dll
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\bin\Debug\net10.0\OOPIntro.pdb
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.dll
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\refint\OOPIntro.dll
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.pdb
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\OOPIntro.genruntimeconfig.cache
+C:\Skolan\kurs\vecka 2\Övning C sharp\OOPIntro\obj\Debug\net10.0\ref\OOPIntro.dll
