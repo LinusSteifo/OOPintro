@@ -32,3 +32,14 @@ public class BankAccount
 
     public double GetBalance() => Balance;
 }
+
+public class CheckingAccount : BankAccount
+{
+    public CheckingAccount(string owner, double balance) : base(owner, balance) { }
+
+    public void ApplyMonthlyFee()
+    {
+        Balance -= 50;
+        Console.WriteLine($"Månadsavgift dragen. Nytt saldo: {Balance} kr");
+    }
+}
