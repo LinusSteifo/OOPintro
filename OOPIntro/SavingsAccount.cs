@@ -8,6 +8,11 @@ public class SavingsAccount : BankAccount
         InterestRate = interestRate;
     }
 
+    public override void ShowInfo()
+    {
+        Console.WriteLine($"Sparkonto: {Owner}, Saldo: {Balance} kr, Ränta: {InterestRate * 100}%");
+    }
+
     public void ApplyInterest()
     {
         double interest = Balance * InterestRate;

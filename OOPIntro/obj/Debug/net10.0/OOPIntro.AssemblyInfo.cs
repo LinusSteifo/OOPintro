@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOPIntro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+121e7c969438a04329918c2f0b4cf03782f548e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e474bfc9431e6ff8f6ea808ae05863b513083de3")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOPIntro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOPIntro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
