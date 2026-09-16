@@ -1,7 +1,6 @@
 public class BankAccount
 {
-    public string Owner { get; }
-    protected double BalanceValue { get; set; }
+    public string Owner { get; set; }
     public double Balance { get; protected set; }
 
     public BankAccount(string owner, double balance)
@@ -10,7 +9,7 @@ public class BankAccount
         Balance = balance;
     }
 
-    public void ShowInfo()
+    public virtual void ShowInfo()
     {
         Console.WriteLine($"Konto: {Owner}, Saldo: {Balance} kr");
     }
